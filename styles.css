@@ -143,6 +143,7 @@ button:active {
     font-size: 40px;
     border: none;
     color:#7342d6;
+    display:none;
 }
 
 .menu__backdrop {
@@ -456,11 +457,7 @@ footer .row {
   .book {
     width: 50%;
   }
-}
 
-
-/* SMALL PHONES, LARGE SMARTPHONES */
-@media (max-width: 550px) {
   .btn__menu {
     display: block;
   }
@@ -468,7 +465,11 @@ footer .row {
   .nav__links {
     display: none;
   }
+}
 
+
+/* SMALL PHONES, LARGE SMARTPHONES */
+@media (max-width: 550px) {
   .highlight {
     width: 100%;
   }
